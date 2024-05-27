@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2179928869/display_1500/stock-photo-students-and-teacher-having-fun-in-class-kids-playing-charades-or-simon-says-game-at-school-small-2179928869.jpg");
+
+    background-size: cover;
+    transition: background-image 0.4s;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: #d95980 ;
+}
+
+.yellow{
+    background-color: #f99b45 ;
+}
+
+.green{
+    background-color:#63aac0 ;
+}
+
+.purple{
+    background-color: #819ff9 ;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
